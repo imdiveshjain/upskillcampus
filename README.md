@@ -1,4 +1,4 @@
-# Advanced Smart City Traffic Prediction System
+# Forecasting of Smart city traffic patterns
 
 ### Developed during an Industrial Internship | Upskill Campus | UniConverge Technologies Pvt Ltd
 
