@@ -1,0 +1,7 @@
+from sklearn.ensemble import RandomForestRegressor  # Or RandomForestClassifier
+import joblib
+
+rf_model = RandomForestRegressor()  # Or RandomForestClassifier()
+rf_model.fit(X_train, y_train)
+
+joblib.dump(rf_model, 'models/rf_model.pkl')

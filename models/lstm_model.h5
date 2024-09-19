@@ -1,0 +1,11 @@
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
+
+lstm_model = Sequential()
+lstm_model.add(LSTM(50, input_shape=(timesteps, features)))
+lstm_model.add(Dense(1))  # Assuming it's a regression task
+lstm_model.compile(optimizer='adam', loss='mean_squared_error')
+
+lstm_model.fit(X_train, y_train, epochs=10, batch_size=32)
+
+lstm_model.save('models/lstm_model.h5')
