@@ -4,7 +4,7 @@
 
 ## Overview
 
-The **Advanced Smart City Traffic Prediction System** is a machine learning-based solution designed to predict real-time traffic patterns in urban areas using data acquired from IoT-enabled sensors. Developed over a six-week industrial internship, this project combines state-of-the-art technologies such as **TensorFlow**, **Scikit-learn**, and **XGBoost** for time-series forecasting, data preprocessing, and system integration.
+The **Forecasting of Smart city traffic patterns** is a machine learning-based solution designed to predict real-time traffic patterns in urban areas using data acquired from IoT-enabled sensors. Developed over a six-week industrial internship, this project combines state-of-the-art technologies such as **TensorFlow**, **Scikit-learn**, and **XGBoost** for time-series forecasting, data preprocessing, and system integration.
 
 ### Key Features:
 - **Real-time Traffic Prediction**: Leverages real-time IoT sensor data for continuous traffic forecasting.
